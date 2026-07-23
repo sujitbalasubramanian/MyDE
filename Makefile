@@ -1,5 +1,6 @@
 SUBDIRS := compositor \
-					 wl-clients/menu
+					 wl-clients/menu \
+					 cli/brightness
 
 .PHONY: all clean $(SUBDIRS)
 

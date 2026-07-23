@@ -1,5 +1,5 @@
 CC = cc
-CFLAGS := -std=c23 -Wall -Wextra
+CFLAGS := -std=gnu23 -Wall -Wextra
 
 BUILD ?= debug
 

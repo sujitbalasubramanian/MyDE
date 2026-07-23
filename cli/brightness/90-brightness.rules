@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="backlight", GROUP="video", MODE="0664"
+ACTION=="add", SUBSYSTEM=="leds", GROUP="input", MODE="0664"
