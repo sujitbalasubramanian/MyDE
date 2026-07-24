@@ -2,13 +2,16 @@
 
 ## In Devlopment
 
-- mymenu
-- mycomp
+- wlmenu
+- wlcomp
+- wllock
+- wlbg
 
 ## Planned
 
-- mylock
-- mybg
-- mynotify
-- mypanel
-- mydisplay
+- wlpanel
+- wldisplay
+
+## Available
+
+- brightness (cli utility to adjust brightness)

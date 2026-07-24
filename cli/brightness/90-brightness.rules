@@ -1,2 +1,2 @@
-ACTION=="add", SUBSYSTEM=="backlight", GROUP="video", MODE="0664"
-ACTION=="add", SUBSYSTEM=="leds", GROUP="input", MODE="0664"
+ACTION=="add|change", SUBSYSTEM=="backlight", RUN+="/bin/chgrp video /sys/class/backlight/%k/brightness", RUN+="/bin/chmod g+w /sys/class/backlight/%k/brightness"
+ACTION=="add|change", SUBSYSTEM=="leds", RUN+="/bin/chgrp input /sys/class/leds/%k/brightness", RUN+="/bin/chmod g+w /sys/class/leds/%k/brightness"
